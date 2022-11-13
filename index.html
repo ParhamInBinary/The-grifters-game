@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The grifters game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+    
+    <div id="start">
+        <h1>Welcome!</h1>
+        <p>The game is simple.</p>
+        <p>Which one of the 5 cups has the red ball under it?</p>
+        <button id="strtGame" type="button">Start</button>
+    </div>
 
+    <div id="main">
+        <h1 id="dealer">Dealer:</h1>
+        <div id="outPut"></div>
+        <input id="cupNr" type="number" min="1" max="5" placeholder="Cup nr">
+        <input id="betInput" type="text" placeholder="Place an amount...">
+        <button id="play">Play</button>
+        <p id="balanceTotal"></p>
+    </div>
+   
+    <div id="winLose">
+        <h1 id="dealer">Dealer:</h1>
+        <div id="winLossOutPut"></div>
+        <p id="newBalanceTotal"></p>
+        <button id="playAgain">Play again</button>
+        <h2 id="winAmount"></h2>
+        <h2 id="loseAmount"></h2>
+        <h2 id="completeLossAmount"></h2>
+    </div>
+
+</body>
+</html>
