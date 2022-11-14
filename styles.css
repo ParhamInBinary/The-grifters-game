@@ -69,7 +69,7 @@ body {
     border: 1px solid black;
 }
 
-#playAgain {
+#playAgain, #stopPlaying {
     margin-top: .5em;
     height: 2em;
     width: 10em;
