@@ -5,7 +5,7 @@ import { stopPlaying } from "./stopPlaying.js";
 
 const values = {
   balance: 50,
-  redBall: Math.floor(Math.random() * 5 + 1),
+  redBall: Math.floor(Math.random() * 5 + 1)
 };
 
 const strtGameBtn = document.querySelector("#strtGame");
