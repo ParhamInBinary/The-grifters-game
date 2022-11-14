@@ -14,7 +14,8 @@ const resultOutcome = document.querySelector("#resultOutcome");
  * @returns {void}
  */
 export function playGame(values) {
-  if (betInput.value > values.balance || betInput.value < 1 || Number.isNaN(+betInput.value)) {
+  debugger
+  if (betInput.value > values.balance || betInput.value < 1 || Number.isNaN(+betInput.value) || !cupNrInput.value) {
     return;
   }
 
