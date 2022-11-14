@@ -10,6 +10,10 @@ const winLosePage = document.querySelector("#winLose");
  * @return {void}
  */
 export function startGame(values) {
+  if ( values.balance < 1 ) {
+    return
+  }
+  
   values.redBall = Math.floor(Math.random() * 5 + 1);
   startPage.style.display = "none";
   winLosePage.style.display = "none";
