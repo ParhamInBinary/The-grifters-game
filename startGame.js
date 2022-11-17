@@ -6,7 +6,7 @@ const winLosePage = document.querySelector("#winLose");
 
 /**
  * Function to display the correct layout, randomize the cup number of which redBall represents and present current balance.
- * @param {{balance: number, redBall: number}}values Object containing values for redBall and balance
+ * @param {{balance: number, redBall: number, redBall_2: number}}values Object containing values for redBall, redBall_2 and balance.
  * @return {void}
  */
 export function startGame(values) {

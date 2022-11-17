@@ -10,7 +10,7 @@ const resultOutcome = document.querySelector("#resultOutcome");
 
 /**
  * Function to display the correct layout, validate input for bet amount and produces results.
- * @param {{balance: number, redBall: number}}values Object containing values for redBall and balance
+ * @param {{balance: number, redBall: number, redBall_2: number}}values Object containing values for redBall, redBall_2 and balance.
  * @returns {void}
  */
 export function playGame(values) {

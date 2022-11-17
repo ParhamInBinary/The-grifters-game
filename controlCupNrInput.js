@@ -1,8 +1,5 @@
 const cupNrInput = document.querySelector("#cupNr");
-/**
- * Function to validate the guess of cup number.
- * @return {void}
- */
+/** Function to validate the guess of cup number. */
 export function controlCupNrInput() {
     if (cupNrInput.value > 5) {
       cupNrInput.value = 5;
